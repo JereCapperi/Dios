@@ -1,0 +1,27 @@
+button {
+    background: #7669bb;
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 700;
+    font-size: 14px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    cursor: pointer;
+}
+  
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+  
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+  
+@media screen and (max-width: 1100px) {
+    button{
+        font-size: 10px;
+    }
+}
